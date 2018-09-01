@@ -21,7 +21,7 @@ ax.view_init(azim=210)
 plt.show()
 ```
 
-![](imgs/Sample_Look_up.png)
+![](img/Sample_Look_up.png)
 
 The sample data is generated using this MATLAB code:
 
@@ -67,7 +67,7 @@ x3=lm.predict(predict_df)
 
 #Plot using trisurf code above
 ```
-![](imgs/cubic_fit.png)
+![](img/cubic_fit.png)
 
 Fit is pretty bad. Now we will try a piecewise linear model with 10 knots (10 knots for B1 and 10 knots for Ratio).
 
