@@ -50,7 +50,7 @@ Plot the interpolated data:
 ```
 fig = plt.figure()
 ax = fig.gca(projection='3d')
-ax.plot_trisurf(x1,x2,x3, cmap=plt.cm.jet, linewidth=0.2, antialiased=True)
+ax.plot_trisurf(x1,x2,x3, cmap=plt.cm.jet,vmin=0, vmax=4, linewidth=0.2, antialiased=True)
 ax.set_xlabel('B1')
 ax.set_ylabel('Ratio')
 ax.set_zlabel('T1')
