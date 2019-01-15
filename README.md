@@ -60,5 +60,10 @@ plt.show()
 
 ![](img/griddata.png)
 
+### Tensorflow
+
+We can also use neural nets to approximate functions. This is the closet I could get so far using a 2 layer neural net with 25 hidden nodes in each layer and L2 regularization:
+
+![](img/neural_net.png)
 
 ### Spark
